@@ -11,4 +11,18 @@ Git学习笔记
 
 对于一个任务需要较长时间完成，如果等全部完成后再提交到库中可能会面临这个任务过程中工作的丢失，这个时候可以使用分支建立对这个任务的版本管理，等到任务全部完成后，一次性合并到原来的库（分支）上，这样既安全又不影响别人的工作。
 
-Creating a new branch is quick.
+Git 鼓励大量使用分支：
+
+查看分支： <code>git branch</code>
+
+创建分支： <code>git branch <name></code>
+
+切换分支： <code>git checkout <name></code>
+
+创建＋切换分支： <code>git checkout -b <name></code>
+
+合并某分支到当前分支： <code>git merge <name></code>
+
+删除分支： <code>git branch -d <name></code>
+
+
