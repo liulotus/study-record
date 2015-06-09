@@ -1,6 +1,26 @@
 # gitskills
 Git学习笔记
 
+## 安装Git
+Mac 上如果安装了最新的XCode，可以使用XCode进行安装。
+
+Ubuntu中可以使用<code>sudo apt-get install git</code>命令来进行安装。
+
+## 创建版本库
+
+<pre>
+  mkdir selfgit
+  cd selfgit
+  git init
+</pre>
+
+把文件添加到版本库中可以使用 `git add filename`
+然后使用 `git commit -m "comments"` 提交到版本库中
+
+使用 `git status` 命令可以查看版本库当前的状态。
+
+使用 `git diff filename` 命令可以查看具体修改什么内容。
+
 ## 克隆远程库
 
 如克隆github上的远程库gitskills
