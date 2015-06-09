@@ -15,14 +15,18 @@ Git 鼓励大量使用分支：
 
 查看分支： <code>git branch</code>
 
-创建分支： <code>git branch <name></code>
+创建分支： <code>git branch &lt;name&gt;</code>
 
-切换分支： <code>git checkout <name></code>
+切换分支： <code>git checkout &lt;name&gt;</code>
 
-创建＋切换分支： <code>git checkout -b <name></code>
+创建＋切换分支： <code>git checkout -b &lt;name&gt;</code>
 
-合并某分支到当前分支： <code>git merge <name></code>
+合并某分支到当前分支： <code>git merge &lt;name&gt;</code>
 
-删除分支： <code>git branch -d <name></code>
+删除分支： <code>git branch -d &lt;name&gt;</code>
+
+当合并分支的时候产生冲突，需要首先解决冲突，然后再进行合并。
+
+用`git log --graph`命令可以看到分支合并图。
 
 
