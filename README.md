@@ -13,3 +13,6 @@
 
 `001.` [Delphi | Pascal](/Delphi//README.md)
 
+## 02. 读书笔记 · Reading notes
+
+`001.` [《格鲁夫给经理人的第一课》](/Books/)
